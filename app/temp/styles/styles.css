@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*
+MD. MEHADI HASAN SHIMUL
+Main SCSS File
+
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _functions.scss    # Sass Functions
+|   |– _mixins.scss       # Sass Mixins
+|   |– _placeholders.scss # Sass Placeholders
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|   …                     # Etc.
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|   …                     # Etc.
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|   …                     # Etc.
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|   …                     # Etc.
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|   …                     # Etc.
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|   |– _jquery-ui.scss    # jQuery UI
+|   …                     # Etc.
+|
+`– main.scss              # Main Sass file
+
+// Normalize CSS
+// @import "normalize.css";
+*/
+/* Md. Mehadi Hasan Shimul */
+/* Function code must be here */
+/* Md. Mehadi Hasan Shimul */
+/* All Mixins Code */
+/* Md. Mehadi Hasan Shimul */
+/* All variable must be here */
+/* Md. Mehadi Hasan Shimul */
+/* Extend code must be here */
+th, td {
+  text-align: left;
+  padding: 8px; }
+
+th:last-child, td:last-child {
+  text-align: center; }
+
+/* Md. Mehadi Hasan Shimul */
+/* Md. Mehadi Hasan Shimul */
+/* Base File Codes */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+/* Md. Mehadi Hasan Shimul */
+h2 {
+  text-align: center; }
+
+/* Md. Mehadi Hasan Shimul */
+/* Md. Mehadi Hasan Shimul */
+/* Md. Mehadi Hasan Shimul */
+/* Md. Mehadi Hasan Shimul */
+body {
+  width: 90%;
+  margin: 0 auto; }
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 80%;
+  box-shadow: gray 2px 2px 5px;
+  background: #f2f2f2; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th {
+  background-color: #4CAF50;
+  color: #fff; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+td#total_bill {
+  color: green; }
+
+td#total_bill_with_late {
+  color: red; }

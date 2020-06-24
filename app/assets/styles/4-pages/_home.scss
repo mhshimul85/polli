@@ -1,0 +1,49 @@
+/* Md. Mehadi Hasan Shimul */
+
+
+body {
+    width:90%;
+    margin: 0 auto;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 80%;
+    box-shadow: $inputShadow 2px 2px 5px;
+    background: $bgColorOne;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: $bgColorTwo;
+    color: $colorWhite;
+    @extend %align-padding;
+    &:last-child {
+		@extend %text-align;
+    }
+}
+
+tr {
+	&:nth-child(even) {
+		background-color: $bgColorOne;
+	}
+}
+
+td	{
+	@extend %align-padding;
+	&:last-child {
+		@extend %text-align;
+    }
+    &#total_bill {
+		color: $color_green;    
+    }
+    &#total_bill_with_late {
+		color: $color_red;    
+    }
+}
